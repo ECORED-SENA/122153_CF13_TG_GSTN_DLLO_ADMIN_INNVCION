@@ -45,10 +45,12 @@ export default {
         desarrolloContenidos: true,
         subMenu: [
           {
+            numero: '1.1',
             titulo: 'Soportes electrónicos',
             hash: 't_1_1',
           },
           {
+            numero: '1.2',
             titulo:
               'Las redes: el correo electrónico, la intranet y el internet',
             hash: 't_1_2',

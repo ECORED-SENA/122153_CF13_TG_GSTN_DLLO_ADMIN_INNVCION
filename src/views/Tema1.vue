@@ -11,159 +11,125 @@
     .col-12.mb-5
       figure
         .video
-          iframe(
-            width='560',
-            height='315',
+          iframe(width='560', height='315',
             src='https://www.youtube.com/embed/QtbHcrG7DJA',
             title='YouTube video player',
             frameborder='0',
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture',
             allowfullscreen
           )
-    .row.mb-5
-      .col-lg-5.col-12
-        figure(data-aos='zoom-in')
-          img(src='@/assets/template/tema01/t1-i1.png')
+      figcaption Video. La era de las nuevas tecnologías 
+    
+    .row.justify-content-center.mb-5
+      .col-lg-5.col-md-9.col-12.mb-3.mb-lg-0
+        img(src='@/assets/template/tema01/t1-i1.png')
       .col-lg-7.col-12
-        .row 
-          .col-12
-            p Teniendo claro el tema de las tecnologías; ahora, es importante conocer que la gestión documental es la parte del sistema de información de una empresa, diseñada para almacenar y recuperar documentos. Además de coordinar y controlar las funciones y actividades que afectan la creación, recepción, almacenamiento, acceso y retención de documentos, es relevante proteger la estructura y el contexto de los documentos, garantizando su confiabilidad y las propiedades.
-          .col-12
-            .cajon.cajon-color-1.p-4
-              p.mb-0 Dentro de los cambios trascendentales a los que se ha enfrentado la humanidad, se posiciona en los primeros lugares el acceso a la información, cambio que drásticamente tuvo una repercusión pos-pandemia, porque muchas personas, y organizaciones no estaban preparadas de manera suficiente, para las necesidades de sus usuarios.
+        p Teniendo claro el tema de las tecnologías; ahora, es importante conocer que la gestión documental es la parte del sistema de información de una empresa, diseñada para almacenar y recuperar documentos. Además de coordinar y controlar las funciones y actividades que afectan la creación, recepción, almacenamiento, acceso y retención de documentos, es relevante proteger la estructura y el contexto de los documentos, garantizando su confiabilidad y las propiedades.
+        .cajon.cajon-color-1.p-4
+          p.mb-0 Dentro de los cambios trascendentales a los que se ha enfrentado la humanidad, se posiciona en los primeros lugares el acceso a la información, cambio que drásticamente tuvo una repercusión pos-pandemia, porque muchas personas, y organizaciones no estaban preparadas de manera suficiente, para las necesidades de sus usuarios.
 
     p Estas necesidades obligaron a:
 
-    .row.mb-5
-      .col-lg-12.mb-5
-        .row.d-flex.justify-content-center
-          .col-sm-6.col-lg-4.mb-4.mb-lg-0
-            .col-lg-12.t-2-nivel1-tarjeta
-            .tarjeta--boton.p-4.t-2-nivel2-tarjeta.bg-01
-              .row.justify-content-center.mb-3.t-2-nivel3-tarjeta.mb-4
-                .col-lg-5.col-3
-                  figure
-                    img(
-                      src='@/assets/template/tema01/t1-i2.png',
-                      alt='Texto que describa la imagen'
-                    )
+    .row.justify-content-center.mb-5
+      .col-lg-4.col-md-6.mb-3.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/template/tema01/t1-i2.png' alt='')
+          .tarjeta.bg-01.w-100
+            .p-4.text-center
+              p Una reorganización de los procesos.
+      .col-lg-4.col-md-6.mb-3.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/template/tema01/t1-i3.png' alt='')
+          .tarjeta.bg-02.w-100
+            .p-4.text-center
+              p Una capacitación a fondo de las herramientas necesarias.     
 
-              p.text-center Una reorganización de los procesos.
-
-          .col-sm-6.col-lg-4.mb-4.mb-lg-0
-            .col-lg-12.t-2-nivel1-tarjeta
-            .tarjeta--boton.p-4.t-2-nivel2-tarjeta.bg-02
-              .row.justify-content-center.mb-3.t-2-nivel3-tarjeta.mb-4
-                .col-lg-5.col-3
-                  figure
-                    img(
-                      src='@/assets/template/tema01/t1-i3.png',
-                      alt='Texto que describa la imagen'
-                    )
-
-              p.text-center Una capacitación a fondo de las herramientas necesarias.
-
-    .row.mb-5
+    .row.justify-content-center.mb-4
       .col-lg-7.col-12
-        .row 
-          .col-12
-            p Teniendo claros los dos conceptos, se puede decir que, en la gestión documental, su gran salto fue la influencia de la tecnología, puesto que desde los años 90 y 2000, hacía referencia al material físico de documentos, y fue creciendo cada vez más y hoy en día no solo se habla de los documentos desde el aspecto físico, sino que se refiere a todo documento, archivo físico y electrónico.
-          .col-12
-            .cajon.color-primario-card.p-4
-              p Ahora bien, ¿cuál será el futuro o en qué avances se encuentra? La gestión documental continuará ampliando su concepto no solo tratándose de los documentos físicos y electrónicos, sino apostando al uso de la nube, lo que hace que su productividad aumente y, sin importar el lugar y la herramienta (celulares, tabletas, computadoras), se pueda retener, acceder y trabajar con la documentación allí depositada, trayendo consigo el crecimiento económico de las empresas y apertura con mercados internacionales.
-      .col-lg-5.col-12
-        figure(data-aos='zoom-in')
-          img(src='@/assets/template/tema01/t1-i4.png')
+        p Teniendo claros los dos conceptos, se puede decir que, en la gestión documental, su gran salto fue la influencia de la tecnología, puesto que desde los años 90 y 2000, hacía referencia al material físico de documentos, y fue creciendo cada vez más y hoy en día no solo se habla de los documentos desde el aspecto físico, sino que se refiere a todo documento, archivo físico y electrónico.
+        .cajon.color-primario-card.p-4
+          p.mb-0 Ahora bien, ¿cuál será el futuro o en qué avances se encuentra? La gestión documental continuará ampliando su concepto, no solo tratándose de los documentos físicos y electrónicos, sino apostando al uso de la nube, lo que hace que su productividad aumente y, sin importar el lugar y la herramienta (celulares, tabletas, computadoras), se pueda retener, acceder y trabajar con la documentación allí depositada, trayendo consigo el crecimiento económico de las empresas y apertura con mercados internacionales.
+      .col-lg-5.d-none.d-lg-block
+        img(src='@/assets/template/tema01/t1-i4.png')
 
-    p.mb-5 Es así como la información digital se convierte en un escenario de atención especial, en donde es vital atender la normativa dispuesta para tal fin, buscando dar cumplimiento y trabajando de manera mancomunada con el gobierno nacional y organizaciones internacionales, así como lo ha propuesto la ONU, en sus objetivos de desarrollo sostenible: política de cero papel y transparencia de la información.
+    p Es así como la información digital se convierte en un escenario de atención especial, en donde es vital atender la normativa dispuesta para tal fin, buscando dar cumplimiento y trabajando de manera mancomunada con el gobierno nacional y organizaciones internacionales, así como lo ha propuesto la ONU, en sus objetivos de desarrollo sostenible: política de cero papel y transparencia de la información.
 
+
+    Separador
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1 Soportes electrónicos
 
-    p.mb-5 Dentro de la gestión documental digital, se requiere el uso de soportes electrónicos, aquellos que permiten el registro de la información y tienen, como función, contribuir con las operaciones fundamentales de las organizaciones.
-
-    p Existen soportes físicos como el <em>hardware</em> y lógicos como el <em>software</em>:
+    p Dentro de la gestión documental digital, se requiere el uso de soportes electrónicos, aquellos que permiten el registro de la información y tienen, como función, contribuir con las operaciones fundamentales de las organizaciones.
+    p.mb-4 Existen soportes físicos como el #[em hardware] y lógicos como el #[em software]:
 
     .row.justify-content-center.mb-5
-      .col-lg-10
-        .row.justify-content-center.mb-5
-          .col-xl-5.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-            .crd_hover_txt(data-aos='flip-left')
-              .crd_hover_txt--img
-                figure
-                  img(src='@/assets/template/tema01/t1-i5a.png', alt='alt')
-              .crd_hover_txt--body
-                h5.mb-3.text-center <em>Hardware</em>
-                p.mb-0.text-center Se define como el conjunto de componentes físicos que componen un dispositivo.
-
-          .col-xl-5.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-            .crd_hover_txt(data-aos='flip-left')
-              .crd_hover_txt--img
-                figure
-                  img(src='@/assets/template/tema01/t1-i5.png', alt='alt')
-              .crd_hover_txt--body
-                h5.mb-3.text-center <em>Software</em>
-                p.mb-0.text-center Se define como el conjunto de programas o aplicaciones, instrucciones y reglas informáticas, que permiten que un dispositivo funcione.
+      .col-lg-5.col-md-9.col-11.mb-4
+        .crd_hover_txt(data-aos='fade-right')
+          .crd_hover_txt--img
+            img(src='@/assets/template/tema01/t1-i5a.png', alt='')
+          .crd_hover_txt--body
+            h5.mb-3.text-center #[em Hardware]
+            p.mb-0.text-center Se define como el conjunto de componentes físicos que componen un dispositivo.
+      .col-lg-5.col-md-9.col-11.mb-4
+        .crd_hover_txt(data-aos='fade-left')
+          .crd_hover_txt--img
+            figure
+              img(src='@/assets/template/tema01/t1-i5.png', alt='')
+          .crd_hover_txt--body
+            h5.mb-3.text-center #[em Software]
+            p.mb-0.text-center Se define como el conjunto de programas o aplicaciones, instrucciones y reglas informáticas, que permiten que un dispositivo funcione.
       .col-lg-10
         .cajon.cajon-color-1.p-4
-          p <b>¡Nota importante!</b>
-
-          p Es sustancial tener en cuenta que un ordenador o también llamado computadora personal, es un dispositivo electrónico que procesa, produce, almacena y modifica datos. Está destinado a trabajar con cualquier tipo de documento de forma local o remota. 
+          p.mb-2 #[b ¡Nota importante!]
+          p.mb-0 Es sustancial tener en cuenta que un ordenador o también llamado computadora personal, es un dispositivo electrónico que procesa, produce, almacena y modifica datos. Está destinado a trabajar con cualquier tipo de documento de forma local o remota. 
     
-    p.mb-5 Estos ordenadores pueden ser:
+    p.mb-4 Estos ordenadores pueden ser:
 
     LineaTiempoE.color-secundario.mb-5
       .row(subtitulo='Portátiles')
         .col-lg-8
-          figure
-            img(src='@/assets/template/tema01/t1-i6.png')
-
+          img(src='@/assets/template/tema01/t1-i6.png')
       .row(subtitulo='De mesa o Desktop')
         .col-lg-8
-          figure
-            img(src='@/assets/template/tema01/t1-i7.png')
-
+          img(src='@/assets/template/tema01/t1-i7.png')
       .row(subtitulo='De torre o Tower')
         .col-lg-8
-          figure
-            img(src='@/assets/template/tema01/t1-i8.png')
+          img(src='@/assets/template/tema01/t1-i8.png')
 
     p Por esta razón la digitalización, en general, implica convertir información física en formato digital, la cual se transcribe para ahorrar espacio físico y optimizar la recuperación de documentos. Gracias a que la digitalización es una tecnología digital mucho más eficiente, todo lo que estaba escrito en papel (analógico) ahora puede ser digital.
 
     p.mb-4 Los beneficios de la digitalización incluyen:
 
-    .row.mb-5 
-      .col-lg-12.mb-5
-        SlyderF(columnas='col-lg-6 col-xl-4')(data-aos='zoom-in')
-          .tarjeta.color-acento-contenido.p-4.altura_1
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src='@/assets/template/tema01/t1-i9.png', alt='AvatarTop')
-            p.text-center El acceso rápido a los documentos desde cualquier dispositivo.
+    SlyderF.mb-5(columnas='col-lg-4 col-md-6')(data-aos='zoom-in')
+      .tarjeta.color-acento-contenido.p-4.altura_1
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/template/tema01/t1-i9.png', alt='')
+        p.text-center El acceso rápido a los documentos desde cualquier dispositivo.
 
-          .tarjeta.color-acento-contenido.p-4.altura_1
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src='@/assets/template/tema01/t1-i10.png', alt='AvatarTop')
-            p.text-center Pueden ser compartidos.
+      .tarjeta.color-acento-contenido.p-4.altura_1
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/template/tema01/t1-i10.png', alt='')
+        p.text-center Pueden ser compartidos.
 
-          .tarjeta.color-acento-contenido.p-4.altura_1
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src='@/assets/template/tema01/t1-i11.png', alt='AvatarTop')
-            p.text-center Están en un lugar seguro.
+      .tarjeta.color-acento-contenido.p-4.altura_1
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/template/tema01/t1-i11.png', alt='')
+        p.text-center Están en un lugar seguro.
 
-          .tarjeta.color-acento-contenido.p-4.altura_1
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src='@/assets/template/tema01/t1-i11a.png', alt='AvatarTop')
-            p.text-center Son fáciles de organizar.
+      .tarjeta.color-acento-contenido.p-4.altura_1
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/template/tema01/t1-i11a.png', alt='')
+        p.text-center Son fáciles de organizar.
 
-          .tarjeta.color-acento-contenido.p-4.altura_1
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src='@/assets/template/tema01/t1-i11b.png', alt='AvatarTop')
-            p.text-center Se protegen del deterioro físico.
+      .tarjeta.color-acento-contenido.p-4.altura_1
+        .row.justify-content-center.mb-3
+          .col-8
+            img(src='@/assets/template/tema01/t1-i11b.png', alt='')
+        p.text-center Se protegen del deterioro físico.
 
     p De modo que toda la información digitalizada se encuentra en óptimas condiciones, además de poder usar copias de seguridad en discos externos y guardar en el disco duro interno o en un sistema de almacenamiento de cualquier computador personal.
 
@@ -177,17 +143,14 @@
               p Inicia con la depuración, retirando cualquier elemento de sujeción que pueda afectar el paso por los escáneres, manteniendo el orden original.
             .col-md-5
               figure(data-aos='zoom-in')
-                img(
-                  src='@/assets/template/tema01/lineatiempo/t1-i1.png',
-                  alt='Texto que describa la imagen'
-                )
-
+                img(src='@/assets/template/tema01/lineatiempo/t1-i1.png',
+                  alt='')
           .row
             .col-md-5
               figure(data-aos='zoom-in')
                 img(
                   src='@/assets/template/tema01/lineatiempo/t1-i2.png',
-                  alt='Texto que describa la imagen'
+                  alt=''
                 )
             .col-md-7.mb-md-0
               p.text-start Cuando los documentos están preparados se pasan por el escáner, el cual capta, a través de una lectura óptica y mediante un sensor, los puntos que componen una imagen y la transforman en bits.
@@ -199,7 +162,7 @@
               figure(data-aos='zoom-in')
                 img(
                   src='@/assets/template/tema01/lineatiempo/t1-i3.png',
-                  alt='Texto que describa la imagen'
+                  alt=''
                 )
 
     .row.justify-content-center.mb-5
@@ -209,129 +172,88 @@
             :style='{ "background-image": `url(${require("@/assets/template/tema01/t1-i12.png")})` }'
           )
           .bloque-texto-g__texto.py-4.px-5
-            p.mb-0 <b>¡Recuerde!</b>
-            br
+            p.mb-0 #[b ¡Recuerde!]
             br
             p Se pueden digitalizar documentos, libros, fotos, transparencias, archivos, expedientes de personal, escrituras, documentos jurídicos, entre otros, y pueden implementarse en todo tipo de empresas del sector público o privado, contando con la información conveniente para ser presentada de forma ágil y segura, sea para procesos internos (auditorías o toma de decisiones) o externos, presentados a las autoridades competentes.
 
     p.mb-4 Igualmente, conozcamos sobre la microfilmación, una herramienta común como sistema de archivo, gestión y distribución de documentos:
 
-    .row.mb-5
-      .col-lg-4
+    .row.mb-4
+      .col-lg-4.d-none.d-lg-block
         figure(data-aos='zoom-in')
           img(
             src='@/assets/template/tema01/t1-i13.png',
-            alt='Texto que describa la imagen'
+            alt=''
           ) 
       .col-lg-8
         TabsA.color-acento-contenido
           .tarjeta.bg-03.p-4(titulo='Producto')
             p Básicamente consiste en tomar una foto de cada uno de los documentos y conservarlos en un rollo de película.
-
           .tarjeta.bg-03.p-4(titulo='Objetivo')
             p Obtener una reproducción exacta del documento original prestado a un nivel de reducción especificado y conocido, sobre un soporte fotográfico estandarizado dentro de la serie documental.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center
       .col-lg-10
         .cajon.cajon-color-1.p-4
           p.mb-0 La producción, en la microfilmación, está muy estandarizada, tanto en la metodología como en los materiales utilizados. Todo esto significa que cada una de sus imágenes tiene valor individual inclusive, algunas agencias nacionales y gobiernos, aceptan los microfilmes como documentos con valor probatorio en los tribunales.
 
+    
+    Separador
     #t_1_2.titulo-segundo.color-acento-contenido
-      h2 1.2 Las redes: el correo electrónico, la intranet y el <em>internet</em>
+      h2 1.2 Las redes: el correo electrónico, la intranet y el internet
 
     .row.mb-5
       .col-lg-7.col-12
         p Actualmente en las organizaciones, como estrategia de posicionamiento, se utilizan diferentes canales electrónicos; es así que cuando hablamos de las redes, se hace referencia a una red de comunicación de datos interconectada por una serie de dispositivos de radio, la cual permite intercambiar información en paquetes de datos transmitidos por impulsos eléctricos, ondas electromagnéticas u otros medios físicos.
-
-      .col-lg-5.col-12
-        figure(data-aos='zoom-in')
-          img(src='@/assets/template/tema01/t1-i14.png') 
+      .col-lg-5.col-12.d-none.d-lg-block
+        img(src='@/assets/template/tema01/t1-i14.png') 
 
     p Las redes informáticas suelen tener los siguientes elementos:
 
     .row.mb-5
       .row.d-flex.justify-content-center
         SlyderF(columnas='col-lg-6 col-xl-4')(data-aos='zoom-in')
-          .tarjeta.p-4
-            .row.justify-content-center.mb-3
-              .col-lg-12.t-2-nivel1-tarjeta
-              .col-lg-12.bg-02.altura_border
-                .row.justify-content-center.t-2-nivel3-tarjeta
-                  .col-lg-6.col-4.mb-3
-                    img(
-                      src='@/assets/template/tema01/t1-i16.png',
-                      alt='AvatarTop'
-                    )
-                  p.text-center Servidores.
-
-          .tarjeta.p-4
-            .row.justify-content-center.mb-3
-              .col-lg-12.t-2-nivel1-tarjeta
-              .col-lg-12.bg-02.altura_border
-                .row.justify-content-center.t-2-nivel3-tarjeta
-                  .col-lg-6.col-4.mb-3
-                    img(
-                      src='@/assets/template/tema01/t1-i17.png',
-                      alt='AvatarTop'
-                    )
-                  p.text-center Clientes.   
-
-          .tarjeta.p-4
-            .row.justify-content-center.mb-3
-              .col-lg-12.t-2-nivel1-tarjeta
-              .col-lg-12.bg-02.altura_border
-                .row.justify-content-center.t-2-nivel3-tarjeta
-                  .col-lg-6.col-4.mb-3
-                    img(
-                      src='@/assets/template/tema01/t1-i18.png',
-                      alt='AvatarTop'
-                    )
-                  p.text-center Medios de transmisión. 
-
-          .tarjeta.p-4
-            .row.justify-content-center.mb-3
-              .col-lg-12.t-2-nivel1-tarjeta
-              .col-lg-12.bg-02.altura_border
-                .row.justify-content-center.t-2-nivel3-tarjeta
-                  .col-lg-6.col-4.mb-3
-                    img(
-                      src='@/assets/template/tema01/t1-i19.png',
-                      alt='AvatarTop'
-                    )
-                  p.text-center Elementos de&nbsp;
-                    i hardware.
-
-          .tarjeta.p-4
-            .row.justify-content-center.mb-3
-              .col-lg-12.t-2-nivel1-tarjeta
-              .col-lg-12.bg-02.altura_border
-                .row.justify-content-center.t-2-nivel3-tarjeta
-                  .col-lg-6.col-4.mb-3
-                    img(
-                      src='@/assets/template/tema01/t1-i20.png',
-                      alt='AvatarTop'
-                    )
-                  p.text-center Elementos de&nbsp;
-                   i software.
-
-    .row.mb-5
-      .col-lg-5.col-12
-        figure(data-aos='zoom-in')
-          img(src='@/assets/template/tema01/t1-i15.png')
+          .tarjeta-avatar
+            img(src='@/assets/template/tema01/t1-i16.png' alt='')
+            .tarjeta.bg-02.w-100
+              .text-center.p-4
+                p Servidores.
+          .tarjeta-avatar
+            img(src='@/assets/template/tema01/t1-i17.png' alt='')
+            .tarjeta.bg-02.w-100
+              .text-center.p-4
+                p Clientes.
+          .tarjeta-avatar
+            img(src='@/assets/template/tema01/t1-i18.png' alt='')
+            .tarjeta.bg-02.w-100
+              .text-center.p-4
+                p Medios de transmisión.
+          .tarjeta-avatar
+            img(src='@/assets/template/tema01/t1-i19.png' alt='')
+            .tarjeta.bg-02.w-100
+              .text-center.p-4
+                p Elementos de&nbsp;
+                  i hardware.
+          .tarjeta-avatar
+            img(src='@/assets/template/tema01/t1-i20.png' alt='')
+            .tarjeta.bg-02.w-100
+              .text-center.p-4
+                p Elementos de&nbsp;
+                  i software.
+         
+    .row.mb-4
+      .col-lg-5.col-12.d-none.d-lg-block
+        img(src='@/assets/template/tema01/t1-i15.png')
       .col-lg-7.col-12
-        .row 
-          .col-12
-            p Ahora se abordará el correo electrónico, medio de comunicación conocido como&nbsp;
-              i e-mail,&nbsp;
-              |que permite a los usuarios enviar y recibir mensajes formales gracias a una red de comunicación.
-            p El correo electrónico se basa en un modelo de almacenamiento de datos, de modo que los usuarios no deben estar conectados, sino que el correo hace la función de intermediario y, de manera temporal, envía los mensajes a sus destinatarios y los guarda. 
+        p Ahora se abordará el correo electrónico, medio de comunicación conocido como&nbsp;
+          i e-mail,&nbsp;
+          |que permite a los usuarios enviar y recibir mensajes formales gracias a una red de comunicación.
+        p El correo electrónico se basa en un modelo de almacenamiento de datos, de modo que los usuarios no deben estar conectados, sino que el correo hace la función de intermediario y, de manera temporal, envía los mensajes a sus destinatarios y los guarda. 
+        .cajon.color-primario-card.p-4
+          p.mb-0 Fue creado antes del Internet, aproximadamente en el año 1962 en Massachusetts. El primer mensaje enviado a través de la Renata, se dio en el año de 1971, gracias a Ray Tomlinson, quien utilizó un protocolo experimental para enviar los mensajes que, en su momento, solo comunicaban los usuarios de una misma computadora, y luego incorporó el @ como divisor entre el usuario y la computadora destino.
 
-          .col-12
-            .cajon.color-primario-card.p-4
-              p.mb-0 Fue creado antes del Internet, aproximadamente en el año 1962 en Massachusetts. El primer mensaje enviado a través de la Renata, se dio en el año de 1971, gracias a Ray Tomlinson, quien utilizó un protocolo experimental para enviar los mensajes que, en su momento, solo comunicaban los usuarios de una misma computadora, y luego incorporó el @ como divisor entre el usuario y la computadora destino.
-
-    p.mb-5 El correo electrónico es muy importante para las organizaciones, porque proporciona un medio digital de contacto continuo con todos los que lo necesitan, y se utiliza para proporcionar y simplificar los procesos comerciales internos y poder comunicarse de manera rápida y eficiente cuando sea necesario, simplificando los procesos empresariales dentro o fuera de la organización.
-    p.mb-5 Las partes que componen el correo electrónico son:
+    p El correo electrónico es muy importante para las organizaciones, porque proporciona un medio digital de contacto continuo con todos los que lo necesitan, y se utiliza para proporcionar y simplificar los procesos comerciales internos y poder comunicarse de manera rápida y eficiente cuando sea necesario, simplificando los procesos empresariales dentro o fuera de la organización.
+    p.mb-4 Las partes que componen el correo electrónico son:
 
     .col-lg-12.mb-5
       ImagenInfografica.color-acento-botones.punto_caliente_acento_botones(
@@ -386,9 +308,8 @@
         )
           p.mb-0 Botón que permite adjuntar archivos al mensaje.
 
-    p.mb-5 El siguiente aspecto trata de la intranet y el internet que, aunque comparten características similares, con frecuencia causan confusión.  
-
-    p.mb-5 Se definen, cada una de ellas, de la siguiente manera:
+    p El siguiente aspecto trata de la intranet y el internet que, aunque comparten características similares, con frecuencia causan confusión.  
+    p.mb-4 Se definen, cada una de ellas, de la siguiente manera:
     
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -396,8 +317,7 @@
           .col-xl-5.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
             .crd_hover_txt(data-aos='flip-left')
               .crd_hover_txt--img
-                figure
-                  img(src='@/assets/template/tema01/t1-i22.png', alt='alt')
+                img(src='@/assets/template/tema01/t1-i22.png', alt='')
               .crd_hover_txt--body
                 h5.mb-3.text-center Internet
                 p.mb-0.text-center Proporciona información casi ilimitada para que cualquier persona pueda consultar.
@@ -406,84 +326,70 @@
             .crd_hover_txt(data-aos='flip-left')
               .crd_hover_txt--img
                 figure
-                  img(src='@/assets/template/tema01/t1-i23.png', alt='alt')
+                  img(src='@/assets/template/tema01/t1-i23.png', alt='')
               .crd_hover_txt--body
                 h5.mb-3.text-center Intranet
                 p.mb-0.text-center Es donde los datos circulan a través de una organización.
 
-    p.mb-3 Ahora, se amplía la información sobre cada uno de estos términos.  
+    p Ahora, se amplía la información sobre cada uno de estos términos.  
+    p Comencemos con la Intranet, la cual es una red informática que utiliza el protocolo de Internet, es una tecnología para compartir información, sistemas operativos o servicios informáticos dentro de una organización. Suele ser interna, en vez de pública como el Internet, debido a que su objetivo es ayudar a los empleados a agregar valor a la empresa y exponer los activos de esta; y algo muy importante, solo los miembros de la organización propietaria pueden acceder a ella.    
+    p.mb-4 Las ventajas de utilizar Intranet son:   
 
-    p.mb-4 Comencemos con la Intranet, la cual es una red informática que utiliza el protocolo de Internet, es una tecnología para compartir información, sistemas operativos o servicios informáticos dentro de una organización. Suele ser interna, en vez de pública como el Internet, debido a que su objetivo es ayudar a los empleados a agregar valor a la empresa y exponer los activos de esta; y algo muy importante, solo los miembros de la organización propietaria pueden acceder a ella.    
-    p.mb-5 Las ventajas de utilizar Intranet son:   
-
-    .row.mb-5 
-      .col-lg-12.mb-5
-        SlyderF(columnas='col-lg-6 col-xl-4')(data-aos='zoom-in')
-          .tarjeta.color-acento-contenido.p-4.altura_1
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src='@/assets/template/tema01/t1-i24.png', alt='AvatarTop')
-            p.text-center Mejorar la eficiencia y productividad organizacional.
-
-          .tarjeta.color-acento-contenido.p-4.altura_1
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src='@/assets/template/tema01/t1-i25.png', alt='AvatarTop')
-            p.text-center Optimizar la comunicación y el flujo de información oportuna entre los empleados. 
-
-          .tarjeta.color-acento-contenido.p-4.altura_1
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src='@/assets/template/tema01/t1-i26.png', alt='AvatarTop')
-            p.text-center Facilitar el acceso a la información y aplicaciones. 
-
-          .tarjeta.color-acento-contenido.p-4.altura_1
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src='@/assets/template/tema01/t1-i27.png', alt='AvatarTop')
-            p.text-center Fomentar el trabajo en equipo. 
-
-          .tarjeta.color-acento-contenido.p-4.altura_1
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src='@/assets/template/tema01/t1-i28.png', alt='AvatarTop')
-            p.text-center Reducir los costos operativos.                    
-
-          .tarjeta.color-acento-contenido.p-4.altura_1
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src='@/assets/template/tema01/t1-i29.png', alt='AvatarTop')
-            p.text-center Incrementar la innovación.  
+    SlyderF.mb-4(columnas='col-md-6 col-xl-4')(data-aos='zoom-in')
+      .tarjeta.color-acento-contenido.p-4.altura_1
+        .row.justify-content-center.mb-3
+          .col-6.col-md-8
+            img(src='@/assets/template/tema01/t1-i24.png', alt='')
+        p.text-center Mejorar la eficiencia y productividad organizacional.
+      .tarjeta.color-acento-contenido.p-4.altura_1
+        .row.justify-content-center.mb-3
+          .col-6.col-md-8
+            img(src='@/assets/template/tema01/t1-i25.png', alt='')
+        p.text-center Optimizar la comunicación y el flujo de información oportuna entre los empleados. 
+      .tarjeta.color-acento-contenido.p-4.altura_1
+        .row.justify-content-center.mb-3
+          .col-6.col-md-8
+            img(src='@/assets/template/tema01/t1-i26.png', alt='')
+        p.text-center Facilitar el acceso a la información y aplicaciones. 
+      .tarjeta.color-acento-contenido.p-4.altura_1
+        .row.justify-content-center.mb-3
+          .col-6.col-md-8
+            img(src='@/assets/template/tema01/t1-i27.png', alt='')
+        p.text-center Fomentar el trabajo en equipo. 
+      .tarjeta.color-acento-contenido.p-4.altura_1
+        .row.justify-content-center.mb-3
+          .col-6.col-md-8
+            img(src='@/assets/template/tema01/t1-i28.png', alt='')
+        p.text-center Reducir los costos operativos.                    
+      .tarjeta.color-acento-contenido.p-4.altura_1
+        .row.justify-content-center.mb-3
+          .col-6.col-md-8
+            img(src='@/assets/template/tema01/t1-i29.png', alt='')
+        p.text-center Incrementar la innovación.  
 
     .row.justify-content-center.mb-5
       .col-lg-10
         .cajon.cajon-color-1.p-4
           p.mb-0 Continuemos con la Internet, red global de computadoras conectadas entre sí, que consiste en servidores que brindan información a cerca de 100 millones de personas conectadas a través de la red, coincidiendo o no en los tiempos, es decir, que pueden ser o no simultáneos.  
 
-    p.mb-5 Algunas características de la Internet son:
+    p.mb-4 Algunas características de la Internet son:
 
-    .tarjeta--container.row.mb-5
+    .tarjeta--container.row.mb-4
       .col-md.tarjeta.bg-04.p-5
         .row.justify-content-center.mb-4
           .col-12
-            figure
-              img(src='@/assets/template/tema01/t1-i30.svg', alt='Texto que describa la imagen')
-          
-        p La información está siempre disponible a cualquier hora del día y en cualquier lugar del mundo. 
+            img(src='@/assets/template/tema01/t1-i30.svg', alt='')          
+        p.mb-0 La información está siempre disponible a cualquier hora del día y en cualquier lugar del mundo. 
       .col-md.tarjeta.bg-05.p-5
         .row.justify-content-center.mb-4
           .col-12
-            figure
-              img(src='@/assets/template/tema01/t1-i31.svg', alt='Texto que describa la imagen')
-          
-        p Se puede utilizar para cualquier propósito. 
+            img(src='@/assets/template/tema01/t1-i31.svg', alt='')          
+        p.mb-0 Se puede utilizar para cualquier propósito. 
       .col-md.tarjeta.bg-04.p-5
         .row.justify-content-center.mb-4
           .col-12
-            figure
-              img(src='@/assets/template/tema01/t1-i32.svg', alt='Texto que describa la imagen')
-          
-        p Ofrece nuevas oportunidades de comunicación.
+            img(src='@/assets/template/tema01/t1-i32.svg', alt='')          
+        p.mb-0 Ofrece nuevas oportunidades de comunicación.
 
     p Tenga en cuenta que ambos entornos pueden coexistir. De hecho, las intranets generalmente se basan en el Internet y, más aún, en redes que no están conectadas físicamente.                                
                   
